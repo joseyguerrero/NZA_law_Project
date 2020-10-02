@@ -1,9 +1,62 @@
-body{
-    background-color: azure;
-}
 
 .grid-wrapper{
     display: grid;
     width: 100vw;
     height: 100vh;
+
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "logo      logo      logo      logo" 
+        "NavBar    NavBar    NavBar    NavBar"
+        "img       img       img       NewsFeed"
+        "img       img       img       NewsFeed"
+        "img       img       img       NewsFeed"
+        "img       img       img       NewsFeed"
+        "Welcome   Welcome   Welcome   Contact";
+}
+
+.logo{
+    grid-area: logo;
+    background-color: white;
+}
+
+.img{
+    grid-area: img;
+    background-color: transparent;
+}
+
+.NewsFeed{
+    grid-area: NewsFeed;
+    display: block;
+    border: 8px;
+    justify-content: right;
+    background-color:crimson;
+    margin: 10px;
+}
+
+.Welcome{
+    grid-area: Welcome;
+    display: block;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border: black;
+}
+
+.NavBar ul li{
+    grid-area: NavBar;
+    display: inline;
+    text-decoration: none;
+}
+
+.Contact{
+    grid-area: Contact;
+    display: block;
+    background-color: green;
+    border: 10px;
+    border-top: 2px transparent;
+    border-bottom: 2px transparent;
+    justify-content: right;
+
 }
