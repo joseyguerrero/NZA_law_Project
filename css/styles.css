@@ -1,0 +1,9 @@
+body{
+    background-color: azure;
+}
+
+.grid-wrapper{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+}
