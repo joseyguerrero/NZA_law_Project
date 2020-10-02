@@ -1,9 +1,24 @@
-body{
-    background-color: azure;
-}
 
-.grid-wrapper{
-    display: grid;
-    width: 100vw;
-    height: 100vh;
-}
+ul {
+    list-style-type: none;
+    border: 20px;
+	font-size: 15px;
+    font-family: Helvetica;
+    font-weight: bold;
+    padding: 15px;
+    text-align: center;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+
+  }
+  
+  li {
+    display: inline;
+  }
+
+  li a{
+      text-decoration: none;
+  }
+
+
+  
