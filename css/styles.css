@@ -6,10 +6,10 @@
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas: 
-        "logo      logo      logo      logo " 
+        "logo      logo      logo      logo" 
         "NavBar    NavBar    NavBar    NavBar"
         "img       img       img       NewsFeed"
-        "img       img       img       Newsfeed"
+        "img       img       img       NewsFeed"
         "img       img       img       NewsFeed"
         "img       img       img       NewsFeed"
         "Welcome   Welcome   Welcome   Contact";
@@ -54,4 +54,7 @@
     display: block;
     background-color: green;
     border: 10px;
+    border-top: 2px transparent;
+    border-bottom: 2px transparent;
+    justify-content: right;
 }
