@@ -1,7 +1,19 @@
+body{
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    background-image: url(http://www.fillster.com/images/backgrounds/157k.jpg);
+    
+}
+
 .grid-wrapper{
     display: grid;
     width: 100vw;
     height: 100vh;
+    background-color: white;
+    margin: 10%;
+   
 
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -23,6 +35,9 @@
 .img{
     grid-area: img;
     background-color: transparent;
+    padding: 60px;
+    /* margin: .5px;
+    margin-left: 60px; */
 }
 
 .NewsFeed{
@@ -30,12 +45,14 @@
     display: block;
     border: 8px;
     justify-content: right;
-    background-color:crimson;
-    margin: 10px;
+    background-color:rgb(122, 21, 41);
+    color: white;
+    /* margin: 10px; */
 }
 
 .scrollbar{
-    overflow-y: auto;
+    overflow: scroll;
+    overflow-y: scroll;
     overflow-x: hidden;
     width: 200px;
     height: 250px;
@@ -45,20 +62,43 @@
     grid-area: Welcome;
     display: block;
     background-color: white;
-    margin: 10px;
-    padding: 10px;
-    border: black;
+    /* margin-top: 0.5px; */
+    padding: auto;
+    border: solid;
+    border-color: black;
+    font-size: medium;
+    border-spacing: 0cm;
 }
 
-.NavBar ul li{
-    grid-area: NavBar;
-    display: inline;
-    text-decoration: none;
+.Welcome>p{
+    font-size: small;
+}
+
+.NavBar{
+    ul {
+        list-style-type: none;
+        border: 20px;
+        font-size: 15px;
+        font-family: Helvetica;
+        font-weight: bold;
+        padding: 15px;
+        text-align: center;
+        border-top: 2px solid;
+        border-bottom: 2px solid;
+      }
+     
+      li {
+        display: inline;
+      }
+      li a{
+          text-decoration: none;
+      }
 }
 
 .Contact{
     grid-area: Contact;
     display: block;
+    /* margin: 20px; */
     background-color: green;
     border: 10px;
     border-top: 2px transparent;
