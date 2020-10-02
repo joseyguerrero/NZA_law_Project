@@ -1,3 +1,4 @@
+
 .grid-wrapper{
     display: grid;
     width: 100vw;
@@ -57,4 +58,5 @@
     border-top: 2px transparent;
     border-bottom: 2px transparent;
     justify-content: right;
+
 }
