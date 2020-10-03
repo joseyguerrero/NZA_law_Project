@@ -1,35 +1,108 @@
-.grid{
-    grid-template-columns: 1fr 2fr 2fr;
+body{
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    background-image: url(http://www.fillster.com/images/backgrounds/157k.jpg);
+    
+}
+
+.grid-wrapper{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    margin: 10%;
+   
+
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "logo      logo      logo      logo" 
+        "NavBar    NavBar    NavBar    NavBar"
+        "img       img       img       NewsFeed"
+        "img       img       img       NewsFeed"
+        "img       img       img       NewsFeed"
+        "img       img       img       NewsFeed"
+        "Welcome   Welcome   Welcome   Contact";
 }
 
-.navbar ul li{
-    display: inline;
-    padding: 10p;
-    text-transform: uppercase;
+.logo{
+    grid-area: logo;
+    background-color: white;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
+.img{
+    grid-area: img;
+    background-color: transparent;
+    padding: 60px;
+    /* margin: .5px;
+    margin-left: 60px; */
+}
+
+.NewsFeed{
+    grid-area: NewsFeed;
     display: block;
+    border: 8px;
+    justify-content: right;
+    background-color:rgb(122, 21, 41);
     color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: #111;
-  }
+    /* margin: 10px; */
+}
+
+.scrollbar{
+    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 200px;
+    height: 250px;
+}
+
+.Welcome{
+    grid-area: Welcome;
+    display: block;
+    background-color: white;
+    /* margin-top: 0.5px; */
+    padding: auto;
+    border: solid;
+    border-color: black;
+    font-size: medium;
+    border-spacing: 0cm;
+}
+
+.Welcome>p{
+    font-size: small;
+}
+
+.NavBar{
+    ul {
+        list-style-type: none;
+        border: 20px;
+        font-size: 15px;
+        font-family: Helvetica;
+        font-weight: bold;
+        padding: 15px;
+        text-align: center;
+        border-top: 2px solid;
+        border-bottom: 2px solid;
+      }
+     
+      li {
+        display: inline;
+      }
+      li a{
+          text-decoration: none;
+      }
+}
+
+.Contact{
+    grid-area: Contact;
+    display: block;
+    /* margin: 20px; */
+    background-color: green;
+    border: 10px;
+    border-top: 2px transparent;
+    border-bottom: 2px transparent;
+    justify-content: right;
+
+}
