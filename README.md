@@ -1,55 +1,21 @@
-<!-- Terrell's Comments -->
-First thing 
-Did the background 
+<!-- Terrell's -->
+Background Image
+who.css file
 
-
-
-
-
-
-<!-- Alax's Comments-->
-
-Index page
+<!-- Alax's -->
+index.html skeleton
 Css Grid Structure for Index
-Logo Area
+Logo
 
 
-
-
-
-
-<!-- Josey's Comments -->
-
+<!-- Josey's -->
 footer
+who.html skeleton
+
+<!-- Stephanie's -->
+Maroon Box  on all three pages
 
 
-
-
-
-
-
-<!-- Stephanie's Comments -->
-
-what we do page
-
-
-
-
-
-
-
-<!-- Monica's Comments -->
-
+<!-- Monica's -->
 Navigation bar
-who we are page
-
-<!--    Nav Bar Goes Here -->
-    <div id="nav">
-        <ul>
-            <li><a href="/who.html">WHO WE ARE |</a></li>
-            <li><a href="/what.html">WHAT WE DO |</a></li>
-            <li><a href="https://nzalaw.com/news/">NEWS & EVENTS |</a></li>
-            <li><a href="https://nzalaw.com/practice-group/commercial/">WHERE WE WORK |</a></li>
-            <li><a href="https://nzalaw.com/contact/">CONTACT US</a></li>
-        </ul>
-        </div>
+what.html  Skeleton

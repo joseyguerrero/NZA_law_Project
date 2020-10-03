@@ -74,26 +74,27 @@ body{
     font-size: small;
 }
 
-.NavBar{
-    ul {
-        list-style-type: none;
-        border: 20px;
-        font-size: 15px;
-        font-family: Helvetica;
-        font-weight: bold;
-        padding: 15px;
-        text-align: center;
-        border-top: 2px solid;
-        border-bottom: 2px solid;
-      }
-     
-      li {
-        display: inline;
-      }
-      li a{
-          text-decoration: none;
-      }
-}
+/* Navigation Bar */
+.navbar ul {
+    list-style-type: none;
+    border: 20px;
+    font-size: .6em;
+    font-family: Helvetica;
+    text-align: center;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 5px;
+  }
+  li {
+    display: inline;
+    
+  }
+  li a{
+      text-decoration: none;
+      color: black;
+
+  }
+
 
 .Contact{
     grid-area: Contact;
