@@ -1,16 +1,23 @@
 <!-- Terrell's -->
-Background Image
-who.css file
+"Hey everyone. I added a css grid to get us started for today.
+We have a 5-10 minute presentation on monday so we may want 
+to think about how we want to handle that soon. 
+
+We still need someone to take on those image cards on the who and what pages.
+I tried it but couldn't get it done. Let me know if anyone has any ideas
+or wants to take that part of the project on. " -Terrell
+
+Available jobs - image rectangles, style paragraph
 
 <!-- Alax's -->
 index.html skeleton
-Css Grid Structure for Index
+styles.css grid
 Logo
 
 
 <!-- Josey's -->
 footer
-who.html skeleton
+
 
 <!-- Stephanie's -->
 Maroon Box  on all three pages
@@ -18,4 +25,3 @@ Maroon Box  on all three pages
 
 <!-- Monica's -->
 Navigation bar
-what.html  Skeleton
