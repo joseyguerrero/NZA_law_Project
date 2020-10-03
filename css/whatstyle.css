@@ -1,0 +1,21 @@
+.grid-wrapper{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "logo      logo      logo      logo" 
+        "NavBar    NavBar    NavBar    NavBar"
+        "img       img       img       NewsFeed"
+        "img       img       img       NewsFeed"
+        "img       img       img       NewsFeed"
+        "img       img       img       NewsFeed"
+        "Welcome   Welcome   Welcome   Contact";
+}
+
+.logo{
+    grid-area: logo;
+    background-color: white;
+}
