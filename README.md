@@ -1,6 +1,6 @@
 <!-- Terrell's Comments -->
 First thing 
-
+Did the background 
 
 
 
@@ -9,8 +9,9 @@ First thing
 
 <!-- Alax's Comments-->
 
-
-
+Index page
+Css Grid Structure for Index
+Logo Area
 
 
 
@@ -19,7 +20,7 @@ First thing
 
 <!-- Josey's Comments -->
 
-
+footer
 
 
 
@@ -29,7 +30,7 @@ First thing
 
 <!-- Stephanie's Comments -->
 
-
+what we do page
 
 
 
@@ -39,4 +40,5 @@ First thing
 
 <!-- Monica's Comments -->
 
-
+Navigation bar
+who we are page
