@@ -1,32 +1,27 @@
 <!-- Terrell's -->
-"Hey everyone. I added a css grid to get us started for today.
-We have a 5-10 minute presentation on monday so we may want 
-to think about how we want to handle that soon. 
+Hey all I've started using the project tab in github. 
+Head there to see the status of all of the different peices of the project. 
 
-We still need someone to take on those image cards on the who and what pages.
-I tried it but couldn't get it done. Let me know if anyone has any ideas
-or wants to take that part of the project on. " -Terrell
+Feel free to comment on any part. 
 
-Available jobs - image rectangles, style paragraph
-
-<!-- Alax's -->
-index.html skeleton
-styles.css grid
-Logo
+- Terrell 
 
 
-<!-- Josey's -->
-footer
+Available jobs at -  https://github.com/Terlam/NZA_law_Project/projects/1
+
+<!-- Alax's Work-->
+index.html page and styling
 
 
+<!-- Josey's  Work-->
+redbox on what page
 
-<!-- Stephanie's -->
-Maroon Box  on all three pages
+
+<!-- Stephanie's Work -->
+redbox on who page
 
 
-<!-- Monica's -->
-Navigation bar Who Page: 
-Top and Bottom Nav Bars and 
-Footer, 
-Paragraph Style
+<!-- Monica's Work-->
+Navigation bar 
+
 
