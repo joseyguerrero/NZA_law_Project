@@ -19,9 +19,11 @@ Logo
 footer
 
 
+
 <!-- Stephanie's -->
 Maroon Box  on all three pages
 
 
 <!-- Monica's -->
 Navigation bar
+
