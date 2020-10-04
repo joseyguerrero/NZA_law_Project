@@ -7,7 +7,7 @@ body{
     margin-right: 15%;
     display: grid;
     width: 60vw;
-    height: 100vh;
+    height: 120vh;
     background-color: white;
     column-gap: 10px;
     row-gap: 10px;
@@ -49,15 +49,76 @@ header{
 
   }
 
-
-
 .who-box{
     grid-area: box-text;
     background-color: maroon;
 }
 
+h3{
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+    color: white;
+    font-family: Helvetica;
+    font-size: 1em;
+}
+
+hr {
+    unicode-bidi: isolate;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 10px;
+    margin-inline-end: 45px;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+h4 {
+    margin-inline-start: 10px;
+    color: white;
+    font-family: Helvetica;
+    font-size: .8em;
+}
+
+h5 {
+    font-size: 0.7em;
+    margin-block-start: 0.6em;
+    margin-block-end: -2.2em;
+    margin-inline-start: 10px;
+    color: white;
+    font-family: Helvetica;
+}
+
+.sub{
+    color: white;
+    font-family: Helvetica;
+    font-size: .7em;
+}
+
+.lit{
+    color: white;
+    font-family: Helvetica;
+    font-size: .7em;
+}
+.biz{
+    color: white;
+    font-family: Helvetica;
+    font-size: .7em;
+}
+
+#redbox_pic{
+    border: 0.1em solid white;
+    margin-inline-start: 13px;
+    margin-inline-end: 10px;
+    margin-bottom: -10px;
+}
+
 .who-text{
     grid-area: plaintext;
+}
+
+p{
+    color: black;
 }
 
 .rectangles{
