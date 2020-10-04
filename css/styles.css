@@ -3,28 +3,32 @@ body{
     margin-left: 40px;
     margin-right: 40px;
     margin-bottom: 40px;
-    background-image: url(http://www.fillster.com/images/backgrounds/157k.jpg);
-    
+    background-image: url(https://i.pinimg.com/originals/09/64/25/09642539eb8b3ab544b2f33848b0c67a.jpg);
 }
 
 .grid-wrapper{
     display: grid;
-    width: 100vw;
+    width: 72vw;
     height: 100vh;
     background-color: white;
-    margin: 10%;
-   
+    padding: 40px;
+    margin-right: 15%;
+    margin-left: 15%;
 
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: 
-        "logo      logo      logo      logo" 
-        "NavBar    NavBar    NavBar    NavBar"
-        "img       img       img       NewsFeed"
-        "img       img       img       NewsFeed"
-        "img       img       img       NewsFeed"
-        "img       img       img       NewsFeed"
-        "Welcome   Welcome   Welcome   Contact";
+        "logo      logo      logo      logo      logo" 
+        "NavBar    NavBar    NavBar    NavBar    NavBar"
+        "img       img       img       img       NewsFeed"
+        "img       img       img       img       NewsFeed"
+        "img       img       img       img       NewsFeed"
+        "img       img       img       img       Contact"
+        "Welcome   Welcome   Welcome   C         Contact";
+}
+
+header{
+    grid-area: NavBar;
 }
 
 .logo{
@@ -35,73 +39,84 @@ body{
 .img{
     grid-area: img;
     background-color: transparent;
-    padding: 60px;
-    /* margin: .5px;
-    margin-left: 60px; */
+    padding: 0px;
 }
 
 .NewsFeed{
     grid-area: NewsFeed;
     display: block;
     border: 8px;
+    margin-right: 10px;
     justify-content: right;
-    background-color:rgb(122, 21, 41);
     color: white;
-    /* margin: 10px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+h2{
+    font-style: italic;
+    font-size: medium;
 }
 
 .scrollbar{
+    border: 1px solid rgb(250, 247, 247);
     overflow: scroll;
     overflow-y: scroll;
     overflow-x: hidden;
-    width: 200px;
-    height: 250px;
+    width: 250px;
+    height: 400px;
+    background-color: rgb(122, 21, 41);
 }
 
 .Welcome{
     grid-area: Welcome;
     display: block;
-    background-color: white;
-    /* margin-top: 0.5px; */
-    padding: auto;
-    border: solid;
-    border-color: black;
-    font-size: medium;
-    border-spacing: 0cm;
+    /* margin: 2vw; */
+    margin-top: 60vh;
+    margin-bottom: 13vh;
+    border: 8px;
+    font-size: small;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .Welcome>p{
     font-size: small;
+    justify-content: left;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.NavBar{
-    ul {
+.NavBar ul {
         list-style-type: none;
         border: 20px;
-        font-size: 15px;
+        font-size: .6em;
         font-family: Helvetica;
-        font-weight: bold;
-        padding: 15px;
+        padding: 5px;
         text-align: center;
-        border-top: 2px solid;
-        border-bottom: 2px solid;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
       }
+
      
-      li {
-        display: inline;
+li {
+    display: inline;
       }
-      li a{
-          text-decoration: none;
+
+li a{
+    text-decoration: none;
+    color: black;
       }
-}
 
 .Contact{
     grid-area: Contact;
     display: block;
-    /* margin: 20px; */
-    background-color: green;
+    margin-top: 68vh;
     border: 10px;
-    border-top: 2px transparent;
-    border-bottom: 2px transparent;
-    justify-content: right;
+    font-size: small;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: green;
+    /*font-size: small;
+    text-align: left; */
 }
