@@ -1,27 +1,28 @@
 <!-- Terrell's -->
-"Hey everyone. I added a css grid to get us started for today.
-We have a 5-10 minute presentation on monday so we may want 
-to think about how we want to handle that soon. 
+Hey all, we've got a lot done and still need a few pieces to fall in line. 
+I think we still may be strugling with pushing and fetching and organizing who does what. 
 
-We still need someone to take on those image cards on the who and what pages.
-I tried it but couldn't get it done. Let me know if anyone has any ideas
-or wants to take that part of the project on. " -Terrell
+I've created a project board to keep track of all the changes we've made and will need to make. 
 
-Available jobs - image rectangles, style paragraph
+Head there to see the status of all of the different peices of the project. 
 
-<!-- Alax's -->
-index.html skeleton
-styles.css grid
-Logo
+- Terrell 
 
+Project Board Link -  https://github.com/Terlam/NZA_law_Project/projects/1
 
-<!-- Josey's -->
-footer
+<!-- Alax's Work-->
+index.html page and styling
 
 
-<!-- Stephanie's -->
-Maroon Box  on all three pages
+<!-- Josey's  Work-->
+redbox on what page
 
 
-<!-- Monica's -->
-Navigation bar
+<!-- Stephanie's Work -->
+redbox on who page
+
+
+<!-- Monica's Work-->
+Navigation bar 
+
+
