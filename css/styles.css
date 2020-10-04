@@ -124,4 +124,50 @@ li a{
     /*font-size: small;
     text-align: left; */
 }
+.footer{
+    grid-area: footer;
+    background-color: white;
+    text-align: center;
+}
 
+.navbar ul{
+    grid-area: footer;
+    list-style-type: none;
+    border: 20px;
+    font-size: 15px;
+    font-family: Helvetica;
+    text-align: center;
+    padding: 5px 10px;
+}
+.navbar ul {
+    grid-area: footer;
+    list-style-type: none;
+    border: 30px;
+    font-size: 15px;
+    font-family: Helvetica;
+    text-align: center;
+    padding: 5px 10px;
+  }
+  li {
+    grid-area: footer;
+    display: inline;
+    
+  }
+  li a{
+    grid-area: footer;
+    text-decoration: none;
+    color: black;
+
+  }
+.hr3{
+    border-color: black;
+    margin-inline-start: 3px;
+    margin-inline-end: 10px;
+    margin-top: 7px;
+}
+
+.copyright{
+    font-family: Helvetica;
+    font-size: 12px;
+    text-align: center;
+}

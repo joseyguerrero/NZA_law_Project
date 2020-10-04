@@ -36,6 +36,12 @@ Header{
     margin-inline-end: 10px;
     margin-bottom: 7px;
 }
+.hr2{
+    border-color: black;
+    margin-inline-start: 3px;
+    margin-inline-end: 10px;
+    margin-bottom: 7px;
+}
 
 .who-box{
     grid-area: box-text;
@@ -148,10 +154,10 @@ flex-wrap: wrap;
 position: relative;
 } 
 
-
 .footer{
     grid-area: footer;
-    /* background-color: chocolate; */
+    background-color: white;
+    text-align: center;
 }
 
 .navbar ul{
@@ -180,13 +186,14 @@ position: relative;
 
   }
 .hr3{
+    grid-area: footer;
     border-color: black;
     margin-inline-start: 3px;
     margin-inline-end: 10px;
     margin-top: 7px;
 }
-
 .copyright{
+    grid-area: footer;
     font-family: Helvetica;
     font-size: 12px;
     text-align: center;
