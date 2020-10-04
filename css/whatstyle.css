@@ -1,34 +1,206 @@
 body{
-    background-image: url(https://media.istockphoto.com/photos/wooden-texture-background-picture-id186850374?k=6&m=186850374&s=612x612&w=0&h=nDmtspov2ADEa7m-VTAN1jo5cms7WLhBHzd33_3UiAY=);
-    background-size: cover;
+    background-image: url(https://i.pinimg.com/originals/09/64/25/09642539eb8b3ab544b2f33848b0c67a.jpg);
 }
 
 .grid-wrapper{
     display: grid;
-    width: 100vw;
+    position: relative;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 60vw;
     height: 100vh;
-    width: 60%;
-    height: 100%;
-
-    grid-template-rows: 1fr 1fr 3fr 1fr;
-    grid-template-columns: 1fr 6fr;
+    background-color: white;
+    column-gap: 11px;
+    row-gap: 5px;
+    grid-template-columns: 21% 78%;
+    grid-template-rows: 20% 20% 50% 9%;
     grid-template-areas: 
-        "header    header    header" 
-        "NavBar    NavBar    NavBar"
-        "middle    middle    middle"
-        "footer    footer    footer";
+    "header     header"
+    "box-text   plaintext"
+    "box-text   rectangles"
+    "footer     footer";
 }
 
-.header{
+Header{
     grid-area: header;
-    background-color: white;
-}
-.NavBar{
-    grid-area: NavBar;
-    background-color: white;
-}
-.middle{
-    grid-area: middle;
-    background-color: white;
+    height: 70px;
+    margin: 30px;
 }
 
+/* Navigation Bar */
+.hr1{
+    border-color: black;
+    margin-inline-start: 3px;
+    margin-inline-end: 10px;
+    margin-bottom: 7px;
+}
+
+/* make this buttons*/
+.button{
+    color: white;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 10px;
+    text-shadow: none;
+    display: Header;
+    text-align: center;
+    cursor: default;
+    background-color: white;
+    box-sizing: border-box;
+    margin: 3px;
+    font: helvetica;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: white;
+    border-image: initial;
+}
+
+  .hr2{
+    border-color: black;
+    margin-inline-start: 3px;
+    margin-inline-end: 10px;
+    margin-top: 7px;
+}
+
+.who-box{
+    grid-area: box-text;
+    background-color: maroon;
+    margin-left: 30px;
+}
+.who-text{
+    grid-area: plaintext;
+    padding-left: 20px;
+    padding-right: 40px;
+
+}
+
+h3{
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+    color: white;
+    font-family: Helvetica;
+    font-size: 1em;
+}
+
+h4 {
+    margin-inline-start: 10px;
+    color: white;
+    font-family: Helvetica;
+    font-size: .8em;
+}
+h5 {
+    font-size: 0.7em;
+    margin-block-start: -1.50em;
+    margin-block-end: -1.50em;
+    margin-inline-start: 10px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: white;
+    font-family: Helvetica;
+}
+.sub{
+    color: white;
+    font-family: Helvetica;
+    font-size: .7em;
+}
+.lit{
+    color: white;
+    font-family: Helvetica;
+    font-size: .7em;
+}
+.biz{
+    color: white;
+    font-family: Helvetica;
+    font-size: .7em;
+}
+.aligncenter{
+    text-align: center;
+    border: .1em solid white;
+    margin-left: 15%;
+    margin-right: 18%;
+    margin-top: 3px;
+}
+
+.rectangles{
+    grid-area: rectangles;
+    background-color: orangered;
+}
+
+.rectangles .grid-wrapper{
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 100px 100px 100px;
+    grid-area:  "bx1 bx2"
+                "bx3 bx4"
+                "bx5 bx6";
+}
+
+.bx1{
+    grid-area: bx1;
+    background-color: cornflowerblue;
+}
+.bx2{
+    grid-area: bx2;
+    background-color: cornflowerblue;
+}
+.bx3{
+    grid-area: bx3;
+    background-color: cornflowerblue;
+}
+.bx4{
+    grid-area: bx4;
+    background-color: cornflowerblue;
+}
+.bx5{
+    grid-area: bx5;
+    background-color: cornflowerblue;
+}
+.bx6{
+    grid-area: bx6;
+    background-color: cornflowerblue;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: white;
+    text-align: center;
+}
+
+.navbar ul{
+    list-style-type: none;
+    border: 20px;
+    font-size: 15px;
+    font-family: Helvetica;
+    text-align: center;
+    padding: 5px 10px;
+}
+.navbar ul {
+    list-style-type: none;
+    border: 30px;
+    font-size: 15px;
+    font-family: Helvetica;
+    text-align: center;
+    padding: 5px 10px;
+  }
+  li {
+    display: inline;
+    
+  }
+  li a{
+      text-decoration: none;
+      color: black;
+
+  }
+.hr3{
+    border-color: black;
+    margin-inline-start: 3px;
+    margin-inline-end: 10px;
+    margin-top: 7px;
+}
+
+.copyright{
+    font-family: Helvetica;
+    font-size: 12px;
+    text-align: center;
+}
