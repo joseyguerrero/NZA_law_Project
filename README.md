@@ -25,5 +25,8 @@ Maroon Box  on all three pages
 
 
 <!-- Monica's -->
-Navigation bar
+Navigation bar Who Page: 
+Top and Bottom Nav Bars and 
+Footer, 
+Paragraph Style
 
