@@ -41,8 +41,12 @@ header{
     grid-area: img;
     background-color: transparent;
     padding: 0px;
+
 }
 
+img {
+    max-width: 100%;
+}
 .NewsFeed{
     grid-area: NewsFeed;
     display: block;
