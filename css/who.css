@@ -81,6 +81,7 @@ header{
     grid-area: box-text;
     background-color: maroon;
     border: 5px solid white;
+    margin-bottom: 20px;
     /* width: 220px;
     height: 513px; */
 }
