@@ -1,20 +1,17 @@
 
 body{
     margin-top: 40px;
-    margin-left: 40px;
-    margin-right: 40px;
     margin-bottom: 40px;
     background-image: url(https://i.pinimg.com/originals/09/64/25/09642539eb8b3ab544b2f33848b0c67a.jpg);
 }
 
 .grid-wrapper{
     display: grid;
-    width: 72vw;
-    height: 100vh;
+    width: 76vw;
+    height: 120vh;
     background-color: white;
     padding: 40px;
-    margin-right: 15%;
-    margin-left: 15%;
+    align-content: right;
 
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -41,6 +38,7 @@ header{
     grid-area: img;
     background-color: transparent;
     padding: 0px;
+    max-width: 100%;
 }
 
 .NewsFeed{
@@ -65,14 +63,13 @@ h2{
     overflow-y: scroll;
     overflow-x: hidden;
     width: 250px;
-    height: 400px;
+    height: 360px;
     background-color: rgb(122, 21, 41);
 }
 
 .Welcome{
     grid-area: Welcome;
     display: block;
-    /* margin: 2vw; */
     margin-top: 60vh;
     margin-bottom: 13vh;
     border: 8px;
@@ -93,7 +90,7 @@ h2{
 .NavBar ul {
         list-style-type: none;
         border: 20px;
-        font-size: .6em;
+        font-size: .9em;
         font-family: Helvetica;
         padding: 5px;
         text-align: center;
@@ -104,6 +101,7 @@ h2{
      
 li {
     display: inline;
+    padding: 15px;
       }
 
 li a{
@@ -114,14 +112,11 @@ li a{
 .Contact{
     grid-area: Contact;
     display: block;
-    margin-top: 68vh;
-    border: 10px;
-  
-    font-size: small;
-    padding: 0px;
+    margin-top: 52vh;
+    font-size: x-small;
+    padding: 89px;
     font-family: Arial, Helvetica, sans-serif;
-    /* background-color: green;
-    /*font-size: small;
-    text-align: left; */
+    background-color: white;
+    text-align: left;
 }
 
