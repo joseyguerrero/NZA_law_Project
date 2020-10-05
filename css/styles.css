@@ -77,7 +77,7 @@ h2{
 .Welcome{
     grid-area: Welcome;
     display: block;
-    margin-top: 20vh;
+    margin-top: 55vh;
     margin-bottom: 13vh;
     border: 8px;
     font-size: small;
@@ -118,7 +118,7 @@ li a{
 .Contact{
     grid-area: Contact;
     display: block;
-    margin-top: 20vh;
+    margin-top: 45vh;
     font-size: x-small;
     padding: 89px;
     font-family: Arial, Helvetica, sans-serif;
