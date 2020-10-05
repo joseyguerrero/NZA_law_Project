@@ -25,4 +25,5 @@ redbox on who page
 <!-- Monica's Work-->
 Navigation bar 
 
+/* Did my centered footer work on the Who page? Can it be used on the other pages as well? */
 
