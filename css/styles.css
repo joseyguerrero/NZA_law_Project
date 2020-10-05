@@ -6,9 +6,11 @@ body{
 }
 
 .grid-wrapper{
+   margin-left: 15%;
+   margin-right: 15%;
     display: grid;
-    width: 76vw;
-    height: 120vh;
+    width: 60vw;
+    height: 100vh;
     background-color: white;
     padding: 40px;
     align-content: right;
@@ -37,7 +39,7 @@ header{
 .img{
     grid-area: img;
     background-color: transparent;
-    padding: 0px;
+    padding-right: 20px;
 
     max-width: 100%;
 
@@ -75,12 +77,13 @@ h2{
 .Welcome{
     grid-area: Welcome;
     display: block;
-    margin-top: 60vh;
+    margin-top: 20vh;
     margin-bottom: 13vh;
     border: 8px;
     font-size: small;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    /* translate: (0vw,15vh); */
 }
 
 .Welcome>p{
@@ -93,7 +96,7 @@ h2{
 .NavBar ul {
         list-style-type: none;
         border: 20px;
-        font-size: .9em;
+        font-size: .6em;
         font-family: Helvetica;
         padding: 5px;
         text-align: center;
@@ -115,7 +118,7 @@ li a{
 .Contact{
     grid-area: Contact;
     display: block;
-    margin-top: 52vh;
+    margin-top: 20vh;
     font-size: x-small;
     padding: 89px;
     font-family: Arial, Helvetica, sans-serif;
