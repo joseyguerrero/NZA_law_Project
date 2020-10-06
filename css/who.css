@@ -1,4 +1,8 @@
 body{
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
     background-image: url(https://i.pinimg.com/originals/09/64/25/09642539eb8b3ab544b2f33848b0c67a.jpg);
 }
 
@@ -47,6 +51,17 @@ Header{
     grid-area: box-text;
     background-color: maroon;
     margin-left: 30px;
+    width: 220px;
+    height: 405px;
+    margin-block-start: 15px;
+}
+
+.what-box{
+    grid-area: box-text;
+    background-color: maroon;
+    border: 5px solid white;
+    width: 220px;
+    height: 513px;
 }
 
 h3{
@@ -55,6 +70,7 @@ h3{
     color: white;
     font-family: Helvetica;
     font-size: 1em;
+    grid-area: box-text;
 }
 
 hr {
@@ -66,6 +82,7 @@ hr {
     overflow: hidden;
     border-style: inset;
     border-width: 1px;
+    grid-area: box-text;
 }
 
 h4 {
@@ -73,6 +90,7 @@ h4 {
     color: white;
     font-family: Helvetica;
     font-size: .8em;
+    grid-area: box-text;
 }
 
 h5 {
@@ -82,48 +100,51 @@ h5 {
     margin-inline-start: 10px;
     color: white;
     font-family: Helvetica;
+    grid-area: box-text;
 }
 
 .sub{
     color: white;
     font-family: Helvetica;
     font-size: .7em;
+    grid-area: box-text;
 }
 
 .lit{
     color: white;
     font-family: Helvetica;
     font-size: .7em;
+    grid-area: box-text;
 }
 .biz{
     color: white;
     font-family: Helvetica;
     font-size: .7em;
+    grid-area: box-text;
 }
 
 #redbox_pic{
     border: 0.1em solid white;
-    margin-inline-start: 13px;
-    margin-inline-end: 10px;
+    margin-inline-start: 11px;
     margin-bottom: -10px;
+    grid-area: box-text;
 }
 
-.who-text{
+.who-text>p{
     grid-area: plaintext;
+    font-family: helvetica;
+    text-align:left;
+    justify-content: left;
 }
-
-p{
-    color: black;
-}
-
+    
 .rectangles{
     grid-area: rectangles;
     background-color: seagreen;
-    
+    margin-block-start: 10px;
+    margin-block-end: 5px;
     display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-gap: 2px;
-
 }
 
 @media screen and (min-width:960px){
