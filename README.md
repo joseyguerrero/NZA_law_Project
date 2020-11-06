@@ -5,7 +5,7 @@ Troubleshooting
 Guiding the Project
 Responsive Styling
 
--Alax
+-Alax: We are oushing and pulling trying to test
 index.html content and style
 css grid
 
